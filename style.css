@@ -1,0 +1,89 @@
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 20%, rgba(55, 76, 101, 1) 65%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Modern font for text */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    width: 350px;
+    color: white;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+    overflow: hidden; /* Ensures the image and content fit within the card */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    background-color: black;
+    color: rgb(248, 5, 199);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #0d0d0d;
+    margin: 5px 0 15px;
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarges button */
+}
+
+.buy, .cart {
+    margin: 10px 0;
+}
+
+.buy button {
+    background-color: #0d0e10; /* Blue background for 'BUY NOW' */
+}
+
+.buy button:hover {
+    background-color: #228b02; /* Darker blue on hover */
+}
+
+.cart button {
+    background-color: #110e0d; /* Orange background for 'ADD TO CART' */
+}
+
+.cart button:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+}
